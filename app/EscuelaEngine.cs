@@ -79,7 +79,7 @@ namespace CoreEscuela
             {
                 foreach(var asig in curso.Asignaturas)
                 {
-                    int cantidad = rdn.Next(0, 5);
+                    int cantidad = rdn.Next(0, 2);
 
                     if(cantidad > 0)
                     {
